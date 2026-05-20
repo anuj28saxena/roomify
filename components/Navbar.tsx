@@ -14,6 +14,7 @@ const Navbar = () => {
                } catch (error) {
                     console.error("Error signing out:", error);
                }
+               return;
           }
 
           try {
